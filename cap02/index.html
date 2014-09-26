@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="Hello">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CAP02</title>
+</head>
+<body ng-controller="HelloController">
+	
+	<button ng-click="incrementar()">Click</button>
+	Você clicou: {{total}} vez(es)!
+	
+	<footer ng-controller="RodapeController">
+		{{copyright}}	
+	</footer>
+
+	<script type="text/javascript" src="../lib/angular.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="HelloController.js"></script>
+	<script type="text/javascript" src="RodapeController.js"></script>
+</body>
+</html>
